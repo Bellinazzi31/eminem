@@ -1,94 +1,115 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
 body {
-    background-color:rgb(59, 116, 190);
-    font-family: sans-serif;
-    line-height: 1.4;
+  background-color: #3b74be;
+  font-family: sans-serif;
+  line-height: 1.4;
 }
-header {
-    background-color: rgb(116, 116, 117);
-    padding: 1rem;
+
+body header {
+  background-color: #747475;
+  padding: 1rem;
 }
+
+body .container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .container h1 {
+  color: red;
+}
+
 .logo {
-    width: 300px;
+  width: 300px;
 }
-section{
-    padding: 1rem;
-    color: #fff;
-    font-size: 1.5rem;
-} 
+
+section {
+  padding: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
 .banner {
-  background-image: url('../img/eminemback2.jpg');
+  background-image: url("../img/eminemback2.jpg");
   background-size: cover;
   background-position: top center;
   min-height: 200px;
 }
+
 .banner h3 {
-    color: #fff;
-    font-weight: bold;
-    font-size: 3rem;
-    text-transform: uppercase;
-    text-shadow: skyblue 3px 3px 5px;
-    text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-shadow: skyblue 3px 3px 5px;
+  text-align: center;
 }
-.container {
-    max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 p {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
+
 .about {
-    color: #fff;
-    font-size: 1.5rem;
+  color: #fff;
+  font-size: 1.5rem;
 }
+
 .em-photo {
-    width: 300px;
-    float: left;
-    margin-right: 0.5rem;
-    border: 18px solid #000;
-    
-
+  width: 300px;
+  float: left;
+  margin-right: 0.5rem;
+  border: 18px solid #000;
 }
+
 .music-video {
-    background-color: rgb(135, 169, 212);
+  background-color: #87a9d4;
 }
-.the-video {
-    float: right;
-    width: 580px;
-    height: 315Px;
-}
-.clr {
-    clear: both;
-    width: 100%;
-}
-footer {
-    background-color: #333333;
-    color: white;
-    text-align: center;
-    padding: 0.5rem;
-}
-a {
-    color:goldenrod;
-}
-a:hover {
-    color: gold;
 
+.the-video {
+  float: right;
+  width: 580px;
+  height: 315Px;
 }
+
+.clr {
+  clear: both;
+  width: 100%;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+a {
+  color: goldenrod;
+}
+
+a:hover {
+  color: gold;
+}
+
 a:active {
-    color: yellow;
+  color: yellow;
 }
-h1,h2 {
-    color: #fff;
-    font-weight: bold;
-    font-size: 3rem;
-    text-transform: uppercase;
-    text-shadow: skyblue 3px 3px 5px;
-    text-align: center;
+
+h1, h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-shadow: skyblue 3px 3px 5px;
+  text-align: center;
+  font: helvetica, sans-serif;
 }
+/*# sourceMappingURL=style.css.map */
